@@ -7,12 +7,10 @@ public class Main {
 
         System.out.println("\nTask 1");
 
-        int age = 24;
+        int age = 12;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний.");
-        }
-        age = 17;
-        if (age < 18) {
+        } else {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать.");
         }
 
